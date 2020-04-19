@@ -43,7 +43,7 @@ await feeder.seed()
 
 ### TODO
 - [ ] minimal impl
-- [ ] naming for feeds
+- [ ] naming for feeds (deal with collision)
 
 ### License
 MIT
