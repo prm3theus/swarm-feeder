@@ -5,6 +5,9 @@ Really just an opinionated & useful combination of abstractions from a few ~floa
 
 ## How to Use
 
+install:
+`yarn add swarm-feeder`
+
 ```js
 // duh
 const SwarmFeeder = require('swarm-feeder')
