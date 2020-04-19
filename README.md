@@ -13,7 +13,7 @@ const SwarmFeeder = require('swarm-feeder')
 const feeder = SwarmFeeder({encoding: 'utf-8'}) 
 
 // seed or join a name for the swarm, outputs hash (can join from hash too)
-await feeder.join("bumble-colony")
+await feeder.swarm("bumble-colony")
 // => 'bee80ff3a4ee5e727dc44197cb9d25bf8f19d50b0f3ad2984cfe5b7d14e75de7'
 // => 2 peers connected, things are happenin'
 
