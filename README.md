@@ -17,13 +17,13 @@ await feeder.join("bumble-colony")
 // => 'bee80ff3a4ee5e727dc44197cb9d25bf8f19d50b0f3ad2984cfe5b7d14e75de7'
 // => 2 peers connected, things are happenin'
 
+// push to the default local feed, replicates to all remote
+await feeder.local.push("bzz")
+
 // keep a watch out for items that are added
 await feeder.watch()
 // => watching for anything new ... 
 // => got one! { 'bzz' }
-
-// push to the default local feed, replicates to all remote
-await feeder.local.push("bzz")
 
 // pull from remote feed, based on id or name
 await feeder.remote.pull(0, console.log)
