@@ -31,7 +31,7 @@ await feeder.remote.pull(0, console.log)
 
 ```
 If a name is not given, **seed 🌱 the location** for the swarm by a **random tree name** for others to join, courtesy of [per](https://github.com/perguth/random-tree-names).
-```
+```js
 await feeder.seed()
 // => 'flowering-almira-norway-maple'
 // => 'b2b26976c9ae329e2b8ce072d28hhell05d9e20a7f24a6af917f0ed3ad3f8b5a5'
