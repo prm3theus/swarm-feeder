@@ -1,4 +1,4 @@
-# 🐝 swarm-feeder 🍯
+# 🐝 swarm-feeder 🍯 (in progress)
 Use a sticky & memorable name to seed a p2p swarm and generate feeds, managed by [multifeed](https://github.com/kappa-db/multifeed).. in the web 🕸️.
 
 Really just an opinionated & useful combination of abstractions from a few ~floating hypercore based modules (e.g. hypercore, hyperswarm, multifeed, crypto, etc.) for any p2p farmer, punk, or api(ar)ists.
